@@ -27,7 +27,7 @@ const assertArraysEqual = function (x, y) {
   if (eqArrays(x, y)) {
     console.log(`✅✅✅ Assertion Passed: ${x} === ${y}`);
   } else {
-    console.log(`✅✅✅ Assertion Passed: ${x} !== ${y}`);
+    console.log(`🛑🛑🛑 Assertion Failed: ${x} !== ${y}`);
   }
 };
 
